@@ -12,10 +12,9 @@
 
  int main(int argc, char **argv)
   {
-	 char n[]="1";
 	 pid_t p2,p3,p4,p5,p6;
 
-	 char *arg[] = {"child","1",0};
+	 char *arg[] = {"child",0};
 
 	 printf("parent (pid %d - ppid %d)\n", getpid(),getppid());
 
